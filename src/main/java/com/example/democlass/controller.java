@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class controller {
-    @RequestMapping("/h")
+    @RequestMapping("/hello")
     public String m1(){
         return ("<h1>*welcome neeraj*</h1>");
     }
